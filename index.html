@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regnestykker</title>
+</head>
+<body>
+    <button onclick="calculate(answer1)">1+5</button>
+    <button onclick="calculate(answer2)">3+4</button>
+    <button onclick="calculate(answer3)">7+9</button>
+    <button onclick="calculate(answer4)">5+3</button>
+    <div id="app"></div>
+
+    <script>
+        let answer1 = 1 + 5;
+        let answer2 = 3 + 4;
+        let answer3 = 7 + 9;
+        let answer4 = 5 + 3;
+
+        function calculate(answer1, answer2){
+        document.getElementById('app').innerHTML = answer1, answer2, answer3, answer4;
+       }
+
+    </script>
+</body>
+</html>
